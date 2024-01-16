@@ -1,81 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" />
     <title>Yoshizaki's Coffee</title>
-</head>
-<body>
-    <header>    
-        <nav>
-            <span>YoshiCoffee</span>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Receita</a></li>
-                <li><a href="#">Novidades</a></li>
-                <li><a href="#">Melhor avaliadas</a></li>
-            </ul>
-            <a href="">Github</a>
-        </nav>    
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="hero-conteudo">
+        <span class="logo">YoshiCoffee</span>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Receita</a></li>
+          <li><a href="#">Novidades</a></li>
+          <li><a href="#">Melhor avaliadas</a></li>
+        </ul>
+        <a class="github">Github</a>
+      </nav>
     </header>
     <main>
-        <section>
-            <header>
-                <span>Novidade</span>
-                <h1>Encontre a receita perfeita!</h1>
-                <hr>
-                <h2>Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!</h2>
+      <div class="principal">
+        <section class="hero">
+          <header>
+            <span class="destaque marrom">Novidade</span>
+            <h1>Encontre a receita perfeita!</h1>
+            <hr />
+            <h2 class="hero-subtitulo">
+              Explore dezenas de variações da bebida favorita entre os devs ao
+              redor mundo!
+            </h2>
+          </header>
+          <div class="hero-imagens-container">
+            <figure><img src="assets/image-01.png" /></figure>
+            <figure><img src="assets/image-02.png" /></figure>
+            <figure><img src="assets/image-03.png" /></figure>
+            <figure><img src="assets/image-04.png" /></figure>
+            <figure><img src="assets/image-05.png" /></figure>
+            <figure><img src="assets/image-06.png" /></figure>
+            <figure><img src="assets/image-07.png" /></figure>
+            <figure><img src="assets/image-08.png" /></figure>
+            <figure><img src="assets/image-09.png" /></figure>
+            <figure><img src="assets/image-10.png" /></figure>
+            <figure><img src="assets/image-11.png" /></figure>
+            <figure><img src="assets/image-12.png" /></figure>
+          </div>
+        </section>
+      </div>
+      <section class="botao-container">
+        <button type="button">
+          <img src="assets/button.svg" />
+        </button>
+      </section>
+      <section></section>
+      <section class="receitas">
+        <header class="receitas-header">
+          <span class="destaque marrom">Receitas</span>
+          <h2 class="receitas-titulo">Confira as últimas receitas</h2>
+          <p class="receitas-subtitulo">
+            Dê uma olhada nas receitas mais amadas!
+          </p>
+        </header>
+        <div class="receitas-card-container">
+          <div class="receitas-card">
+            <header class="receitas-card-header">
+              <div class="receitas-card-header-detalhes">
+                <span class="destaque amarelo">em alta 🔥</span>
+                <h3 class="receitas-titulo">Cappuccino ☕</h3>
+              </div>
+              <p class="receita-avaliacao">Extraordinário · 4/4</p>
             </header>
-            <div>
-                <figure><img src="assets/image-01.png"></figure>
-                <figure><img src="assets/image-02.png"></figure>
-                <figure><img src="assets/image-03.png"></figure>
-                <figure><img src="assets/image-04.png"></figure>
-                <figure><img src="assets/image-05.png"></figure>
-                <figure><img src="assets/image-06.png"></figure>
-                <figure><img src="assets/image-07.png"></figure>
-                <figure><img src="assets/image-08.png"></figure>
-                <figure><img src="assets/image-09.png"></figure>
-                <figure><img src="assets/image-10.png"></figure>
-                <figure><img src="assets/image-11.png"></figure>
-                <figure><img src="assets/image-12.png"></figure>
+            <p class="receita-descricao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+            <div class="receita-autor">
+              <img src="https://avatars.githubusercontent.com/u/96154112?v=4" />
+              <span class="receita-autor-nome">João Yoshizaki</span>
             </div>
-        </section>
-        <section>
-            <button>
-                <img src="assets/button.svg">
-            </button>
-        </section>
-        <section>
-        </section>
-        <section>
-            <header>
-                <span>Receitas</span>
-                <h2>Confira as últimas receitas</h2>
-                <p>Dê uma olhada nas receitas mais amadas!</p>
-            </header>
-            <div>
-                <div>
-                    <header>
-                        <div>
-                            <span>em alta 🔥</span>
-                            <h3>Cappuccino ☕</h3>
-                        </div>
-                        <p>Extraordinário · 4/4 </p>
-                    </header>
-                    <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div>
-                        <img src="https://avatars.githubusercontent.com/u/96154112?v=4">
-                        <span>João Yoshizaki</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>Copyright &lt;CODEFEE /&gt; 2023</p>
-        <p>Feito com muito ❤ e café por João Yoshizaki</p>
+      <p>Copyright &lt;CODEFEE /&gt; 2023</p>
+      <p>Feito com muito ❤ e café por João Yoshizaki</p>
     </footer>
-</body>
+  </body>
 </html>
